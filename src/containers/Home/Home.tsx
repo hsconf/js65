@@ -41,7 +41,7 @@ const Home = () => {
     }
 
     return (
-        <div className="text-center mt-5 border b-1 p-3 shadow">
+        <div className="text-center mt-5 border b-1 p-3 shadow bg-warning">
             <h1 className="h1">{page.title}</h1>
             <p className="fs-5">{page.content}</p>
         </div>
